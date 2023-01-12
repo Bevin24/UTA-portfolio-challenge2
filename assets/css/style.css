@@ -1,0 +1,10 @@
+:root {
+  --AliceBlue: #F0F8ff;
+  --Navy: #000080;
+  --SeaShell: #FFF5EE;
+}
+
+::selection{
+    background-color: var(--SeaShell);
+    color: var(--Navy);
+}
