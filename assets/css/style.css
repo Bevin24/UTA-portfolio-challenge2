@@ -11,6 +11,26 @@ nav {
     background-color: var(--SeaShell);
 }
 
+#logo {
+    background-color: darkgrey;
+    justify-content: flex-start;
+    font-size: xx-large;
+    padding: 10px 15px 0 60px;
+}
+
+.list > * {
+  border: 0.5px solid blue;
+
+}
+
+ul li {
+    display: inline;
+}
+
+ul li a {
+    color: rgb(0, 38, 255);
+}
+
 .body {
     display: flex;
     flex-direction: row;
@@ -23,6 +43,14 @@ footer {
     flex-direction: row;
     flex-wrap: nowrap;
     background-color: var(--SeaShell);
+}
+
+.image-background {
+    border: 1px solid black;
+    display: inline-block;
+    height: 150px;
+    width: 100%;
+    background-image: url('galaxy.jpg');
 }
 
 @media screen and (min-width: 768px) {
