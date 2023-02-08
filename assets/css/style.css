@@ -2,6 +2,7 @@
   --AliceBlue: #F0F8ff;
   --Navy: #000080;
   --SeaShell: #FFF5EE;
+  --Yborder: 2px solid blue
 }
 
 nav {
@@ -12,7 +13,7 @@ nav {
 }
 
 #logo {
-    background-color: darkgrey;
+    background-color: rgb(28, 172, 136);
     justify-content: flex-start;
     font-size: xx-large;
     padding: 10px 15px 0 60px;
@@ -31,9 +32,9 @@ ul li a {
     color: rgb(0, 38, 255);
 }
 
-.body {
+.About {
     display: flex;
-    flex-direction: row;
+    flex-direction:column;
     flex-wrap: nowrap;
     background-color: var(--SeaShell);
 }
@@ -41,8 +42,7 @@ ul li a {
 footer {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
-    background-color: var(--SeaShell);
+    background-color: var(--AliceBlue);
 }
 
 .image-background {
@@ -51,6 +51,14 @@ footer {
     height: 150px;
     width: 100%;
     background-image: url('galaxy.jpg');
+}
+
+.image-background p {
+    display: flex;
+    align-items: center;
+    background-color: var(--SeaShell);
+    color: var(--Navy);
+    float: right
 }
 
 @media screen and (min-width: 768px) {
