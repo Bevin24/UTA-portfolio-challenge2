@@ -2,10 +2,9 @@
   --AliceBlue: #F0F8ff;
   --Navy: #000080;
   --SeaShell: #FFF5EE;
-  --Yborder: 2px solid blue
 }
 
-nav {
+.nav {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -24,11 +23,11 @@ nav {
 
 }
 
-ul li {
+.ul li {
     display: inline;
 }
 
-ul li a {
+.ul li a {
     color: rgb(0, 38, 255);
 }
 
@@ -39,14 +38,15 @@ ul li a {
     background-color: var(--SeaShell);
 }
 
-footer {
+.footer {
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     background-color: var(--AliceBlue);
 }
 
 .image-background {
-    border: 1px solid black;
+    border: 1px solid rgb(16, 13, 196);
     display: inline-block;
     height: 150px;
     width: 100%;
@@ -56,7 +56,7 @@ footer {
 .image-background p {
     display: flex;
     align-items: center;
-    background-color: var(--SeaShell);
+    background-color: var(--AliceBlue);
     color: var(--Navy);
     float: right
 }
